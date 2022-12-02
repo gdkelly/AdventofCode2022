@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec  2 16:37:44 2022
-
-@author: Greg
-"""
-
 import pandas as pd
 df=pd.read_csv('input.txt',header=None,sep=' ')
 score=0
@@ -15,5 +8,4 @@ for i in range(0,len(df)):
     wld=df[1][i]
     opponent_pick=df[0][i]
     score+=values[wld]['init']+values[wld][opponent_pick]
-
 print(score)
