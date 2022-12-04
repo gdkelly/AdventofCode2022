@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Dec  4 19:10:12 2022
-
-@author: Greg
-"""
 
 data=open('input.txt','r')
 pairs=data.read().splitlines()
